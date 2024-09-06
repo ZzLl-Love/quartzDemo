@@ -1,0 +1,45 @@
+# 编译输出
+build/
+dist/
+out/
+
+# 临时文件
+*.tmp
+*.log
+*.lock
+*.bak
+
+# 操作系统生成的文件
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+
+# IDE/编辑器相关文件
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+
+# 忽略本地配置文件
+.env
+config.local.php
